@@ -5,7 +5,6 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
 import java.time.LocalDateTime;
-import java.time.Month;
 import java.util.List;
 
 @Configuration
@@ -29,7 +28,7 @@ public class ConnectionConfig {
                     LocalDateTime.of(2022, 1, 25, 10, 36),
                     2,
                     "Cracow Main Station",
-                    LocalDateTime.of(2022, 1, 25, 14, 02),
+                    LocalDateTime.of(2022, 1, 25, 14, 2),
                     "IC",
                     37.50D
             );

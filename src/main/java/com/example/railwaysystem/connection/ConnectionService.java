@@ -18,4 +18,8 @@ public class ConnectionService {
     public List<Connection> getConnections() {
         return connectionRepository.findAll();
     }
+
+    public void addNewConnection(Connection connection) {
+        System.out.println(connection);
+    }
 }

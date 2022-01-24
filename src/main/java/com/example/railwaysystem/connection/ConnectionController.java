@@ -20,9 +20,4 @@ public class ConnectionController {
     public List<Connection> getConnections() {
         return connectionService.getConnections();
     }
-
-    @PostMapping
-    public void postNewConnection(@RequestBody Connection connection) {
-        connectionService.addNewConnection(connection);
-    }
 }

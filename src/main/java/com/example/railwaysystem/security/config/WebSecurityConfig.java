@@ -28,7 +28,8 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
                 .permitAll()
                 .anyRequest()
                 .authenticated().and()
-                .formLogin().defaultSuccessUrl("/api/v1/connections");
+                .formLogin()
+                .defaultSuccessUrl("/api/v1/connections");
     }
 
     @Override

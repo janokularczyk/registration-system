@@ -26,16 +26,26 @@ public class ConnectionConfig {
 
             Connection wroclawCracow = new Connection(
                     "Wroclaw Main Station",
-                    LocalDateTime.of(2022, Month.JANUARY, 25, 10, 36),
+                    LocalDateTime.of(2022, 1, 25, 10, 36),
                     2,
                     "Cracow Main Station",
-                    LocalDateTime.of(2022, Month.JANUARY, 25, 14, 02),
+                    LocalDateTime.of(2022, 1, 25, 14, 02),
                     "IC",
                     37.50D
             );
 
+            Connection wroclawWalbrzych = new Connection(
+                    "Wroclaw Main Station",
+                    LocalDateTime.of(2022, 1, 26, 15, 20),
+                    6,
+                    "Walbrzych Main Station",
+                    LocalDateTime.of(2022, 2, 26, 16,14),
+                    "KD",
+                    25.25D
+            );
+
             repository.saveAll(
-                    List.of(wroclawWarsaw, wroclawCracow)
+                    List.of(wroclawWarsaw, wroclawCracow, wroclawWalbrzych)
             );
         };
     }

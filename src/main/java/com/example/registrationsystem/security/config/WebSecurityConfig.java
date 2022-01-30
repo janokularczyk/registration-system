@@ -1,6 +1,6 @@
-package com.example.railwaysystem.security.config;
+package com.example.registrationsystem.security.config;
 
-import com.example.railwaysystem.appuser.AppUserService;
+import com.example.registrationsystem.appuser.AppUserService;
 import lombok.AllArgsConstructor;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

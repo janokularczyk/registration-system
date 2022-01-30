@@ -1,4 +1,4 @@
-package com.example.railwaysystem.appuser;
+package com.example.registrationsystem.appuser;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Modifying;

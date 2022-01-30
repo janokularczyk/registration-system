@@ -1,4 +1,4 @@
-package com.example.railwaysystem.appuser;
+package com.example.registrationsystem.appuser;
 
 import lombok.EqualsAndHashCode;
 import lombok.Getter;

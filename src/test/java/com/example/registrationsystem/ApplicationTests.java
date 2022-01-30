@@ -1,4 +1,4 @@
-package com.example.railwaysystem;
+package com.example.registrationsystem;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

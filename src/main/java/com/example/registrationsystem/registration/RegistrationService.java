@@ -1,11 +1,11 @@
-package com.example.railwaysystem.registration;
+package com.example.registrationsystem.registration;
 
-import com.example.railwaysystem.appuser.AppUser;
-import com.example.railwaysystem.appuser.AppUserRole;
-import com.example.railwaysystem.appuser.AppUserService;
-import com.example.railwaysystem.email.EmailSender;
-import com.example.railwaysystem.registration.token.ConfirmationToken;
-import com.example.railwaysystem.registration.token.ConfirmationTokenService;
+import com.example.registrationsystem.appuser.AppUser;
+import com.example.registrationsystem.appuser.AppUserRole;
+import com.example.registrationsystem.appuser.AppUserService;
+import com.example.registrationsystem.email.EmailSender;
+import com.example.registrationsystem.registration.token.ConfirmationToken;
+import com.example.registrationsystem.registration.token.ConfirmationTokenService;
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Service;
 

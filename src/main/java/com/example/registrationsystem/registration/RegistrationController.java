@@ -1,4 +1,4 @@
-package com.example.railwaysystem.registration;
+package com.example.registrationsystem.registration;
 
 import lombok.AllArgsConstructor;
 import org.springframework.web.bind.annotation.*;

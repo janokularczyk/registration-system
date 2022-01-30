@@ -1,4 +1,4 @@
-package com.example.railwaysystem.registration.token;
+package com.example.registrationsystem.registration.token;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Modifying;

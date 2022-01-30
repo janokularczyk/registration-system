@@ -1,4 +1,4 @@
-package com.example.railwaysystem;
+package com.example.registrationsystem;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

@@ -1,6 +1,6 @@
-package com.example.railwaysystem.registration.token;
+package com.example.registrationsystem.registration.token;
 
-import com.example.railwaysystem.appuser.AppUser;
+import com.example.registrationsystem.appuser.AppUser;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;

@@ -1,4 +1,4 @@
-package com.example.railwaysystem.appuser;
+package com.example.registrationsystem.appuser;
 
 public enum AppUserRole {
     USER,

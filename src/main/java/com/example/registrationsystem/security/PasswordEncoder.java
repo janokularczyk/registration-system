@@ -1,4 +1,4 @@
-package com.example.railwaysystem.security;
+package com.example.registrationsystem.security;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
